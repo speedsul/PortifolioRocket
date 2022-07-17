@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+    color: black;
+   
+}
+#main {
+    background-color: white;
+}
+#main #menu{
+    display: flex;
+    flex-direction: row-reverse;
+    background-color: #1ED0E9;
+    height:200px;
+}
+#main #menu ul{
+ 
+    display: flex;   
+    justify-content: right;
+    width: 100vw;
+    background-color: #1ED0E9;
+    
+    position: fixed;   
+    height: 30px;
+    display: flex;
+    padding: 10px;
+}
+#main #menu ul li{
+    padding: 0 20px;
+    list-style: none;
+    font-size: 1.2em;
+ 
+}
+#main #menu ul li a{
+    color:white;
+}
+
+/* pagina */
+#main #page {
+    display: flex;
+}
+#main #page .content{
+    margin: 20px 40px;
+    height: 160vh;
+    background-color: white;
+}
